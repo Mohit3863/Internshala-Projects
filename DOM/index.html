@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Resgistration System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="logo.svg">
+  </head>
+  <body>
+    <!---- header section -->
+    <header>
+      <h1>STUDENT REGISTRATION SYSTEM</h1>
+      <p>
+        This Student Registration System is a document used to collect essential
+        information from students enrolling in an educational institution. This
+        form typically includes fields for personal details such as Name,
+        student ID, contact information, and Email address. The registration
+        form ensures that the institution gathers all necessary information to
+        create student profiles, facilitate course enrollment, and maintain
+        accurate records for administrative purposes. By standardizing the
+        registration process, it helps streamline the administrative workflow
+        and enhances the overall efficiency of student onboarding.
+      </p>
+    </header>
+    <!--- form -->
+    <form id="studentForm">
+      <label for="studentID">STUDENT ID :</label>
+      <input type="text" id="studentID" placeholder="Student ID" required />
+      <label for="studentName">STUDENT NAME :</label>
+      <input type="text" id="studentName" placeholder="Student Name" required />
+      <label for="contactNumber">CONTACT NUMBER :</label>
+      <input
+        type="text"
+        id="contactNumber"
+        placeholder="Contact Number"
+        required
+      />
+      <label for="studentEmail">EMAIL :</label>
+      <input type="email" id="studentEmail" placeholder="Email" required />
+      <button id="addBtn" type="submit">Add</button>
+    </form>
+    <!---- Adding records in a table -->
+    <div id="table-container">
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <!---github link-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
