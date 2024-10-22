@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofadi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: rgb(103, 76, 107);
+}
+
+header h1{
+    margin: 20px 0px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+
+}
+header p{
+    margin: 30px 0px;
+    text-align: center;
+    color: white    ;
+    padding: 10px;
+}
+form{
+    padding-left: 20px;
+}
+
+form label{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+form input{
+    height: 20px;
+    width: 30vw;
+    padding: 8px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  
+}
+form #addBtn{
+    height: 30px;
+    width: 80px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1c2842;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+form #addBtn:hover{
+    background-color: #030303;
+    color: white;
+}
+
+#studentTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+#studentTable th, #studentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#studentTable th {
+    background-color: #f2f2f2;
+}
+#table-container {
+    height: 300px;
+    width: 95%;
+            overflow-y: auto; 
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#studentTable tbody{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.edit-button {
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+button.delete-button {
+    background-color: #f44336; 
+    color: white;
+}
+
+button.edit-button:hover {
+    background-color: #45a049; 
+}
+
+button.delete-button:hover {
+    background-color: #d32f2f; 
+}
